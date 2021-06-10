@@ -1,0 +1,48 @@
+body,
+html {
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+main {
+  height: 100%;
+  display: flex;
+}
+
+.izquierda {
+  height: 100%;
+  width: 30%;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.derecha {
+  height: 100%;
+  width: 70%;
+}
+
+.header {
+  height: 20%;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.maincontent {
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  height: 20%;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

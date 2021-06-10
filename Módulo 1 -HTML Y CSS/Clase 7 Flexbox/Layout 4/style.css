@@ -1,0 +1,42 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+header{
+    height: 20%;
+    background-color: hsl(43, 74%, 49%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+}
+.izquierda{
+    width: 70%;
+    background-color: rgb(223, 235, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.derecha{
+    width: 30%;
+    background-color: rgb(241, 102, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 20%;
+    background-color: rgb(245, 221, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
